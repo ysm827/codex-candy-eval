@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """用本地 codex CLI 测试糖果问题，统计 reasoning tokens 并判分。
-    uv run python codex_candy_eval.py -m gpt-5.5 -r high -n 5
+    python codex_candy_eval.py -m gpt-5.5 -r high -n 5
 """
 
 from __future__ import annotations
