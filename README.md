@@ -17,3 +17,7 @@ python codex_candy_eval.py -m gpt-5.5 -r high -n 5
 - `-n, --tests`：测试次数（默认 1）
 
 正确答案为 **21**，脚本直接判断回答中是否出现独立的 `21`。
+
+## 致谢
+
+- [LINUX DO](https://linux.do/) - 新的理想型社区
