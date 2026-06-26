@@ -11,6 +11,15 @@
 ```bash
 python codex_candy_eval.py -m gpt-5.5 -r high -n 5
 ```
+### 一键运行
+以下任选其一
+```bash
+wget -qO- "https://raw.githubusercontent.com/haowang02/codex-candy-eval/main/codex_candy_eval.py" | python3 - -m gpt-5.5 -r high -n 5
+```
+```bash
+curl -fsSL "https://raw.githubusercontent.com/haowang02/codex-candy-eval/main/codex_candy_eval.py" | python3 - -m gpt-5.5 -r high -n 5
+```
+
 
 参数：
 
